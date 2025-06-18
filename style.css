@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f6cfe556;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;  
+  padding: 0;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar a {
+  padding: 15px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sidebar a:hover {
+  background-color: #aa8fd8;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.dashboard-header {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+
+.card h5 {
+  font-size: 1rem;
+}
